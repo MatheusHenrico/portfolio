@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import 'reset.css';
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.85em
+}
+
+header {
+  padding: 10px;
+}
+
+hero #img-principal {
+  width: 100%;
+}
+
+main {
+  padding: 0 10px;
+}
+
+main section {
+  margin-bottom: 20px
+}
+
+main #sessao-sobre-mim h2 {
+  margin-bottom: 10px
+}
+
+
+main #sessao-meu-tabalho h2 {
+   margin-bottom: 10px
+}
+
+main #sessao-meu-tabalho div {
+  display: flex;
+  line-height: 18px;
+}
+
+main #designs-esportivos h2 {
+  margin-bottom: 10px;
+
+}
+main #designs-esportivos div {
+  display: flex;
+  gap: 10px
+  
+}
+
+main #designs-esportivos div img {
+  width: 30%;
+  border: 2px #053b50 solid ;
+}
+
+main #contato h2 {
+  margin-bottom: 40px;
+}
+main #contato div{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+main #contato div div{
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.icone-contato {
+  width: 32px;
+  height: 32px;
+}
