@@ -17,6 +17,12 @@ h2 {
 header {
   padding: 10px;
 }
+header {
+  color: #053b50;
+}
+main h2 {
+  color: #053b50;
+}
 
 hero #img-principal {
   width: 100%;
