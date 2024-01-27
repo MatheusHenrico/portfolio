@@ -39,6 +39,9 @@ main section {
 main #sessao-sobre-mim h2 {
   margin-bottom: 10px
 }
+main #sessao-sobre-mim p {
+  line-height: 18px;
+}
 
 
 main #sessao-meu-tabalho h2 {
