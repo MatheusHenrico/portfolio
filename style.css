@@ -23,7 +23,7 @@ hero #img-principal {
 }
 
 main {
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 main section {
@@ -55,8 +55,8 @@ main #designs-esportivos div {
 }
 
 main #designs-esportivos div img {
-  width: 30%;
-  border: 2px #053b50 solid ;
+  width: 31%;
+  border: 1px #053b50 solid ;
 }
 
 main #contato h2 {
@@ -65,15 +65,22 @@ main #contato h2 {
 main #contato div{
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+
 }
 main #contato div div{
   display: flex;
   justify-content: space-around;
   gap: 50px;
+  margin-bottom: 30px;
 }
 
 .icone-contato {
   width: 32px;
   height: 32px;
+}
+
+main #marca-registrada {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
 }
