@@ -50,6 +50,9 @@ main #sessao-meu-tabalho div {
   line-height: 18px;
 }
 
+main #sessao-meu-tabalho div img {
+  width: 40%;
+}
 main #designs-esportivos h2 {
   margin-bottom: 10px;
 
