@@ -40,7 +40,7 @@ main #sessao-sobre-mim h2 {
   margin-bottom: 10px
 }
 main #sessao-sobre-mim p {
-  line-height: 18px;
+  line-height: 20px;
 }
 
 
@@ -50,7 +50,7 @@ main #sessao-meu-tabalho h2 {
 
 main #sessao-meu-tabalho div {
   display: flex;
-  line-height: 18px;
+  line-height: 20px;
 }
 
 main #sessao-meu-tabalho div img {
