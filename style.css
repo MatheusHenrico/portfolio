@@ -61,13 +61,14 @@ main #designs-esportivos h2 {
 
 }
 main #designs-esportivos div {
+  margin-bottom: 10px;
   display: flex;
   gap: 10px
   
 }
 
 main #designs-esportivos div img {
-  width: 31%;
+  width: 49%;
   border: 1px #053b50 solid ;
 }
 
