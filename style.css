@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swaperel=stylesheet);
 @import 'reset.css';
 
 html {
@@ -8,92 +8,145 @@ html {
   font-size: 14px;
 }
 
-h1,
-h2 {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 1.85em
+::-webkit-scrollbar {
+  width: 10px; 
 }
 
-header {
-  padding: 10px;
-}
-header {
-  color: #053b50;
-}
-main h2 {
-  color: #053b50;
+::-webkit-scrollbar-track {
+  background: #3d3b40;
 }
 
-hero #img-principal {
+::-webkit-scrollbar-thumb {
+  background: #525CEB;
+  border-radius: 5px; 
+}
+
+h1{
+  font-weight: 800;
+  font-size: 26px;
+}
+
+h2{
+  color: #F8EDFF;
+ font-weight: 700;
+ font-size: 14px;
+}
+
+h3{
+  color: #F8EDFF;
+}
+
+h4{
+ font-weight: 800;
+ font-size: 16px;
+}
+
+header{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+body{
+  width: 90%;
+  margin: 0 auto;
+  background-color: #3d3b40;
+}
+
+#box-sobre-mim {
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #525CEB;
+}
+
+#conteudo {
+  margin: 16px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ferramentas {
+  width: 64px;
+  height: 64px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+#ferramentas img {
+  width: 64px;
+  height: 64px;
+}
+
+#projects {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.project-card {
   width: 100%;
-}
-
-main {
-  padding: 0 15px;
-}
-
-main section {
-  margin-bottom: 20px
-}
-
-main #sessao-sobre-mim h2 {
-  margin-bottom: 10px
-}
-main #sessao-sobre-mim p {
-  line-height: 20px;
-}
-
-
-main #sessao-meu-tabalho h2 {
-   margin-bottom: 10px
-}
-
-main #sessao-meu-tabalho div {
+  border: 2px solid #525CEB;
+  border-radius: 20px;
+  padding: 10px 0;
   display: flex;
-  line-height: 20px;
-}
-
-main #sessao-meu-tabalho div img {
-  width: 50%;
-}
-main #designs-esportivos h2 {
-  margin-bottom: 10px;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
 
 }
-main #designs-esportivos div {
-  margin-bottom: 10px;
-  display: flex;
-  gap: 10px
-  
+
+.project-card h3 {
+  color: #000;
+  font-size: 18px;
 }
 
-main #designs-esportivos div img {
-  width: 48%;
-  border: 1px #053b50 solid ;
+.project-card img {
+  width: 80%;
 }
 
-main #contato h2 {
-  margin-bottom: 40px;
+.project-card a {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  color:#000;
+  text-decoration: none;
 }
-main #contato div{
+
+
+#contact {
   display: flex;
   justify-content: center;
-
 }
-main #contato div div{
+#contact-icons { 
+  margin-top: 2px;
   display: flex;
-  justify-content: space-around;
-  gap: 50px;
-  margin-bottom: 30px;
+  justify-content: center;
+  column-gap: 20px;
 }
-
 .icone-contato {
-  width: 32px;
-  height: 32px;
-}
-
-main #marca-registrada {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  width: 56px;
+  height: 56px;
+}
+
+.gradient-title {
+  background: radial-gradient(circle, #fff, #BFCFE7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
