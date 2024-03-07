@@ -54,6 +54,10 @@ body{
   background-color: #3d3b40;
 }
 
+#img-principal {
+  width: 100%;
+}
+
 #box-sobre-mim {
   border-radius: 24px;
   display: flex;
