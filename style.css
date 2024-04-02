@@ -24,18 +24,19 @@ html {
 h1{
   font-weight: 900;
   font-size: 60px;
-  line-height: 46px;
+  line-height: 55px;
 }
 
 h2{
-  line-height: 16px;
+  line-height: 23px;
   color: #F8EDFF;
  font-weight: 700;
- font-size: 16px;
+ font-size: 20px;
 }
 
 h3{
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 18px;
   color: #F8EDFF;
 }
 
@@ -88,7 +89,7 @@ main {
   background-image: url("assets/fundo-site-foto-principal.png");
   background-size: cover ;
   background-position: center;
-  height: 680px;
+  height: 690px;
   display: flex;
   flex-direction: column;
   justify-content: center;
