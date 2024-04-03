@@ -89,7 +89,7 @@ main {
   background-image: url("assets/fundo-site-foto-principal.png");
   background-size: cover ;
   background-position: center;
-  height: 645px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
