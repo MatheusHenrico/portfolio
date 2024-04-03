@@ -118,6 +118,10 @@ main {
   align-items: center;
 }
 
+#conteudo h4 {
+  margin-bottom: 24px;
+}
+
 #ferramentas {
   width: 64px;
   height: 64px;
