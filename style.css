@@ -95,7 +95,7 @@ main {
   background-image: url("assets/fundo-portfolio-2.png");
   background-size: cover ;
   background-position: center;
-  height: 800px;
+  height: 995px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,7 +129,7 @@ main {
 }
 
 .box-sobre-mim {
-  margin-top: -0px;
+  margin-top: -210px;
   border-radius: 24px;
   display: flex;
   justify-content: center;
