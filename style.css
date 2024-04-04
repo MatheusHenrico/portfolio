@@ -92,10 +92,10 @@ main {
 
 #hero {
   width: 100%;
-  background-image: url("assets/fundo-portfolio.png");
+  background-image: url("assets/fundo-site.png");
   background-size: cover ;
   background-position: center;
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +104,7 @@ main {
 
 .content-hero {
   width: 90%;
-  height: 57%;
+  height: 50%;
 }
 
 .botao-conversa {
@@ -129,7 +129,7 @@ main {
 }
 
 .box-sobre-mim {
-  margin-top: -10px;
+  margin-top: -80px;
   border-radius: 24px;
   display: flex;
   justify-content: center;
