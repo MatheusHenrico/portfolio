@@ -171,7 +171,8 @@ main {
   display: flex;
   justify-content: center;
 }
-#projects h1 {
+#projects h4 {
+  padding: 10px;
   line-height: 30px;
 }
 
