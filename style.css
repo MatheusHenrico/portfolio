@@ -139,7 +139,7 @@ main {
 }
 
 #conteudo {
-  margin: 24px;
+  margin: 26px 48px;
   text-align: center;
   display: flex;
   flex-direction: column;
